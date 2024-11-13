@@ -1,32 +1,25 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 @media (prefers-color-scheme: light) {
-    :root {
-        --accent-color: #353430;
-        --accent-color-backgroung: #fff1f7;
-        --title-color: #353430;
-        --accent-header-color: #ffc2e6;
-        --header-shadow-color: #ff8dcb;
-        --text-color: #353430;
-        --header-color: #ff8dcb;
-        --button-hover-color: rgba(50, 49, 45, 0.4);
-        --link-color: #353430;
-        --link-shadow-color: #ff8dcb;
-        --decor-color: #353430;
-        --menu-color: #353430;
-        --rec-color: transparent;
-        --headers-color: #353430;
-        --cover-image: url(../images/cover-image-light.png);
-        --accent-font-family: "IBM Plex mono";
-        --accent-header-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-        --accent-header-desctop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-        --background-color: rgb(255, 241, 247);
-        --accent-color-rgb: 53, 52, 48;
-        --background-image: url(../images/cover-image-light.png);
+    --accent-color: #353430;
+    --accent-header-color: #ffc2e6;
+    --header-shadow-color: #ff8dcb;
+    --title-color: #353430;
+    --text-color: #353430;
+    --header-color: #ff8dcb;
+    --button-hover-color: rgba(50, 49, 45, 0.4);
+    --link-color: #353430;
+    --link-shadow-color: #ff8dcb;
+    --decor-color: #353430;
+    --menu-color: #353430;
+    --rec-color: transparent;
+    --headers-color: #353430;
+    --cover-image: url(../images/cover-image-light.png);
+    --accent-font-family: "IBM Plex mono";
+    --accent-header-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --accent-header-desctop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --background-color: rgb(255, 241, 247);
+    --accent-color-rgb: 53, 52, 48;
+    --background-image: url(../images/cover-image-light.png);
+    color: var(--text-color);
     }
 
     .page {
@@ -39,7 +32,27 @@
     }
 
     .header__theme-dark-decor {
-        display: none;
+        position: absolute;
+        color: var(--accent-color);
+        font-size: 18px;
+        line-height: 100%;
+        text-transform: uppercase;
+        top: 24px;
+        right: 30px;
+    }
+
+    .header__theme-dark-decor::after {
+        content: '';
+        position: absolute;
+        inline-size: 10px;
+        block-size: 10px;
+        margin: -5px -20px 0 0;
+        border-radius: 50%;
+        box-shadow: 0 0 4px 2px var(--accent-color);
+        background-color: var(--accent-color);
+        inset-inline-end: 0;
+        inset-block-start: 50%;
+
     }
 
     .title-decor {
@@ -55,7 +68,7 @@
             text-shadow: 4px 4px 0 rgb(255, 0, 112);
         }
     }
-}
+
 
 .page.theme_light {
     --accent-color: #353430;

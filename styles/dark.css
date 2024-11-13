@@ -1,8 +1,4 @@
-
-
 .page.theme_dark {
-    /* сохраните этот селектор в приведённом виде. Так стили написанные ниже будут иметь больший вес, чем стили в медиазапросе предпочтений пользователя */
-    --accent-color: #ff0070;
     --accent-color-backgroung: #000028;
     --title-color: #000028;
     --accent-header-color: #db00ff;
@@ -27,8 +23,25 @@
     color: var(--accent-color);
 }
 
-.theme_dark .header__theme-dark-decor {
-    display: inline-block;
+.header__theme-menu.header__theme-dark-decor {
+    position: absolute;
+    color: var(--accent-color);
+    font-size: 18px;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+.header__theme-menu .header__theme-dark-decor::after {
+    content: '';
+    position: absolute;
+    inline-size: 10px;
+    block-size: 10px;
+    margin: -5px -20px 0 0;
+    border-radius: 50%;
+    box-shadow: 0 0 4px 2px var(--accent-color);
+    background-color: var(--accent-color);
+    inset-inline-end: 0;
+    inset-block-start: 50%;
 }
 
 .theme_dark .title-decor {
