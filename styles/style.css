@@ -163,7 +163,7 @@
 }
 
 .header__title-decor {
-    inline-size: max(355px, 50%);
+    inline-size: max(491px, 30%);
 }
 
 /* Main */
@@ -390,7 +390,6 @@
     .header__theme-menu {
         justify-self: center;
         align-self: start;
-        margin: 20px 0 0;
     }
 
     .header__theme-menu-list {
