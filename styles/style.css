@@ -1,4 +1,3 @@
-
 .page {
     font-family: var(--accent-font-family), monospace;
     color: var(--text-color);
@@ -82,7 +81,6 @@
 
 .header__theme-menu {
     justify-self: end;
-    margin: 10px 0 0;
 }
 
 .header__theme-menu-list {
@@ -281,7 +279,7 @@
     }
 
     .header {
-        margin: 0 20px;
+        margin: 0 0;
     }
 
     .decorative-icon {
@@ -449,7 +447,9 @@
     }
 
     .main__article:nth-child(odd) {
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
     }
 
     .main__article:nth-child(odd) > .main__inner-article {
@@ -457,6 +457,9 @@
     }
 
     .main__article:nth-child(even):not(:last-child) .main__inner-article {
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-content: center;
     }
 }
