@@ -1,16 +1,25 @@
 :root {
-    --text-color: rgba(241, 178, 206, 1);
-    --main-font: "IBM Plex mono", monospace;
-    --background: rgba(0, 0, 40, 1) url("../images/cover-image-dark.png")
-    no-repeat center / cover;
-    --accent-color: rgba(255, 0, 112, 1);
-    --accent-color-btn: rgba(255, 0, 112, 1);
-    --text-color-accent: rgba(219, 0, 255, 1);
-    --bg-color: rgba(0, 0, 40, 1);
-    --accent-color-title: rgba(255, 0, 112, 1);
-    --display-header-decor: inline-flex;
-    --color-section-title: rgba(255, 0, 112, 1);
-    --accent-color-opasity: rgba(255, 0, 112, 0.4);
-    --logo-size_mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    --logo-size_desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --main-color: #ff0077;
+    --background-color: #000028;
+    --border-color: #ff0077;
+    --focus-color: #ff0077;
+    --focus-underline-color: #ff0077;
+    --main-color-translucent: rgba(255, 0, 112, 0.4);
+    --base-font-size: 18px;
+    --font-size-h1: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --titel-text-color: #db00ff;
+    --color-h1: #db00ff;
+    --color-h2: #ff0077;
+    --subtitle-text-color: #000028;
+    --text-color: #f1b2ce;
+    --background-image: url(../images/cover-image-dark.png);
+    --decorated-zone-color: #ff0077;
+    --theme-color: #ff0077;
+    --rec-visible: visible;
+}
+
+@media (min-width: 768px) {
+    :root {
+        --font-size-h1: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    }
 }

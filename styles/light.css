@@ -1,39 +1,37 @@
-:root .theme_light {
-    --text-color: rgba(53, 52, 48, 1);
-    --background: rgba(255, 241, 247, 1) url("../images/cover-image-light.png")
-    no-repeat center / cover;
-    --accent-color: rgba(255, 0, 112, 1);
-    --accent-color-btn: rgba(53, 52, 48, 1);
-    --text-color-accent: rgba(255, 194, 230, 1);
-    --bg-color: rgba(53, 52, 48, 1);
-    --accent-color-title: rgba(255, 141, 203, 1);
-    --display-header-decor: none;
-    --color-section-title: rgba(53, 52, 48, 1);
-    --accent-color-opasity: rgba(53, 52, 48, 0.4);
+.page.theme_light {
+    --main-color: #ff8dcb;
+    --background-color: #fff1f7;
+    --border-color: #353430;
+    --focus-color: #353430;
+    --focus-underline-color: #353430;
+    --main-color-translucent: rgba(53, 52, 48, 0.4);
+    --titel-text-color: #353430;
+    --color-h1: #ffc2e6;
+    --color-h2: #353430;
+    --subtitle-text-color: #353430;
+    --text-color: #353430;
+    --background-image: url(../images/cover-image-light.png);
+    --decorated-zone-color: #353430;
+    --theme-color: #353430;
+    --rec-visible: hidden;
 }
 
 @media (prefers-color-scheme: light) {
     :root {
-        --text-color: rgba(53, 52, 48, 1);
-        --background: rgba(255, 241, 247, 1) url("../images/cover-image-light.png")
-        no-repeat center / cover;
-        --accent-color: rgba(255, 0, 112, 1);
-        --accent-color-btn: rgba(53, 52, 48, 1);
-        --text-color-accent: rgba(255, 194, 230, 1);
-        --bg-color: rgba(53, 52, 48, 1);
-        --accent-color-title: rgba(255, 141, 203, 1);
-        --display-header-decor: none;
-        --color-section-title: rgba(53, 52, 48, 1);
-        --accent-color-opasity: rgba(53, 52, 48, 0.4);
-    }
-}
-
-@media (max-width: 1023px) {
-    .header__title {
-        text-shadow: 4px 4px 0 var(--accent-color-title);
-    }
-
-    .footer__title {
-        text-shadow: 2px 2px 0 var(--accent-color-title);
+        --main-color: #ff8dcb;
+        --background-color: #fff1f7;
+        --border-color: #353430;
+        --focus-color: #353430;
+        --focus-underline-color: #353430;
+        --main-color-translucent: rgba(53, 52, 48, 0.4);
+        --titel-text-color: #353430;
+        --color-h1: #ffc2e6;
+        --color-h2: #353430;
+        --subtitle-text-color: #353430;
+        --text-color: #353430;
+        --background-image: url(../images/cover-image-light.png);
+        --decorated-zone-color: #353430;
+        --theme-color: #353430;
+        --rec-visible: hidden;
     }
 }
