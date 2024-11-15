@@ -1,113 +1,39 @@
+:root .theme_light {
+    --text-color: rgba(53, 52, 48, 1);
+    --background: rgba(255, 241, 247, 1) url("../images/cover-image-light.png")
+    no-repeat center / cover;
+    --accent-color: rgba(255, 0, 112, 1);
+    --accent-color-btn: rgba(53, 52, 48, 1);
+    --text-color-accent: rgba(255, 194, 230, 1);
+    --bg-color: rgba(53, 52, 48, 1);
+    --accent-color-title: rgba(255, 141, 203, 1);
+    --display-header-decor: none;
+    --color-section-title: rgba(53, 52, 48, 1);
+    --accent-color-opasity: rgba(53, 52, 48, 0.4);
+}
+
 @media (prefers-color-scheme: light) {
-    --accent-color: #353430;
-    --accent-header-color: #ffc2e6;
-    --header-shadow-color: #ff8dcb;
-    --title-color: #353430;
-    --text-color: #353430;
-    --header-color: #ff8dcb;
-    --button-hover-color: rgba(50, 49, 45, 0.4);
-    --link-color: #353430;
-    --link-shadow-color: #ff8dcb;
-    --decor-color: #353430;
-    --menu-color: #353430;
-    --rec-color: transparent;
-    --headers-color: #353430;
-    --cover-image: url(../images/cover-image-light.png);
-    --accent-font-family: "IBM Plex mono";
-    --accent-header-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    --accent-header-desctop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    --background-color: rgb(255, 241, 247);
-    --accent-color-rgb: 53, 52, 48;
-    --background-image: url(../images/cover-image-light.png);
-    color: var(--text-color);
+    :root {
+        --text-color: rgba(53, 52, 48, 1);
+        --background: rgba(255, 241, 247, 1) url("../images/cover-image-light.png")
+        no-repeat center / cover;
+        --accent-color: rgba(255, 0, 112, 1);
+        --accent-color-btn: rgba(53, 52, 48, 1);
+        --text-color-accent: rgba(255, 194, 230, 1);
+        --bg-color: rgba(53, 52, 48, 1);
+        --accent-color-title: rgba(255, 141, 203, 1);
+        --display-header-decor: none;
+        --color-section-title: rgba(53, 52, 48, 1);
+        --accent-color-opasity: rgba(53, 52, 48, 0.4);
     }
-
-    .page {
-        --background-color: rgb(255, 241, 247);
-        --accent-color: rgb(255, 141, 203);
-        --accent-color-rgb: 53, 52, 48;
-        --text-color: rgb(53, 52, 48);
-        --background-image: url(../images/cover-image-light.png);
-        color: var(--text-color);
-    }
-
-    .header__theme-dark-decor {
-        position: absolute;
-        color: var(--accent-color);
-        font-size: 18px;
-        line-height: 100%;
-        text-transform: uppercase;
-        top: 24px;
-        right: 30px;
-    }
-
-    .header__theme-dark-decor::after {
-        content: '';
-        position: absolute;
-        inline-size: 10px;
-        block-size: 10px;
-        margin: -5px -20px 0 0;
-        border-radius: 50%;
-        box-shadow: 0 0 4px 2px var(--accent-color);
-        background-color: var(--accent-color);
-        inset-inline-end: 0;
-        inset-block-start: 50%;
-
-    }
-
-    .title-decor {
-        --text-color: var(--text-color);
-    }
-
-    .title {
-        color: rgb(255, 194, 230);
-    }
-
-    @media (width >= 1024px) {
-        .title {
-            text-shadow: 4px 4px 0 rgb(255, 0, 112);
-        }
-    }
-
-
-.page.theme_light {
-    --accent-color: #353430;
-    --accent-header-color: #ffc2e6;
-    --header-shadow-color: #ff8dcb;
-    --title-color: #353430;
-    --text-color: #353430;
-    --header-color: #ff8dcb;
-    --button-hover-color: rgba(50, 49, 45, 0.4);
-    --link-color: #353430;
-    --link-shadow-color: #ff8dcb;
-    --decor-color: #353430;
-    --menu-color: #353430;
-    --rec-color: transparent;
-    --headers-color: #353430;
-    --cover-image: url(../images/cover-image-light.png);
-    --accent-font-family: "IBM Plex mono";
-    --accent-header-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    --accent-header-desctop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    --background-color: rgb(255, 241, 247);
-    --accent-color-rgb: 53, 52, 48;
-    --background-image: url(../images/cover-image-light.png);
-    color: var(--text-color);
 }
 
-.theme_light .header__theme-dark-decor {
-    display: none;
-}
+@media (max-width: 1023px) {
+    .header__title {
+        text-shadow: 4px 4px 0 var(--accent-color-title);
+    }
 
-.theme_light .title-decor {
-    --text-color: var(--text-color);
-}
-
-.theme_light .title {
-    color: rgb(255, 194, 230);
-}
-
-@media (width >= 1024px) {
-    .title {
-        text-shadow: 4px 4px 0 rgb(255, 0, 112);
+    .footer__title {
+        text-shadow: 2px 2px 0 var(--accent-color-title);
     }
 }

@@ -1,53 +1,13 @@
-.page.theme_dark {
-    --accent-color-backgroung: #000028;
-    --title-color: #000028;
-    --accent-header-color: #db00ff;
-    --header-shadow-color: #ff0070;
-    --text-color: #f1b2ce;
-    --header-color: #ff0070;
-    --button-hover-color: rgba(255, 0, 112, 0.4);
-    --link-color: #f1b2ce;
-    --link-shadow-color: #ff0070;
-    --decor-color: #ff0070;
-    --menu-color: #ff0070;
-    --rec-color: #ff0070;
-    --headers-color: #ff0070;
-    --cover-image: url(../images/cover-image-dark.png);
-    --accent-font-family: "IBM Plex mono";
-    --accent-header-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    --accent-header-desctop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    --background-color: rgb(0, 0, 40);
-    --accent-color-rgb: 255, 0, 112;
-    --background-image: url(../images/cover-image-dark.png);
-
-    color: var(--accent-color);
-}
-
-.header__theme-menu.header__theme-dark-decor {
-    position: absolute;
-    color: var(--accent-color);
-    font-size: 18px;
-    line-height: 100%;
-    text-transform: uppercase;
-}
-
-.header__theme-menu .header__theme-dark-decor::after {
-    content: '';
-    position: absolute;
-    inline-size: 10px;
-    block-size: 10px;
-    margin: -5px -20px 0 0;
-    border-radius: 50%;
-    box-shadow: 0 0 4px 2px var(--accent-color);
-    background-color: var(--accent-color);
-    inset-inline-end: 0;
-    inset-block-start: 50%;
-}
-
-.theme_dark .title-decor {
-    --text-color: var(--background-color);
-}
-
-.theme_dark .title {
-    color: rgb(219, 0, 255);
+:root .theme_dark {
+    --text-color: rgba(241, 178, 206, 1);
+    --background: rgba(0, 0, 40, 1) url("../images/cover-image-dark.png")
+    no-repeat center / cover;
+    --accent-color: rgba(255, 0, 112, 1);
+    --accent-color-btn: rgba(255, 0, 112, 1);
+    --text-color-accent: rgba(219, 0, 255, 1);
+    --bg-color: rgba(0, 0, 40, 1);
+    --accent-color-title: rgba(255, 0, 112, 1);
+    --display-header-decor: inline-flex;
+    --color-section-title: rgba(255, 0, 112, 1);
+    --accent-color-opasity: rgba(255, 0, 112, 0.4);
 }

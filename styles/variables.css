@@ -1,39 +1,16 @@
 :root {
-    /* Основные цвета */
-    --accent-color: #ff0070;
-    --accent-color-rgb: 255, 0, 112;
-    --background-color: #000028;
-    --text-color: #f1b2ce;
-
-    /* Цвета заголовков */
-    --title-color: #000028;
-    --accent-header-color: #db00ff;
-    --headers-color: var(--accent-color);
-    --header-shadow-color: var(--accent-color);
-
-    /* Цвета элементов */
-    --header-color: var(--accent-color);
-    --link-color: var(--text-color);
-    --link-shadow-color: var(--accent-color);
-    --decor-color: var(--accent-color);
-    --menu-color: var(--accent-color);
-    --rec-color: var(--accent-color);
-
-    /* Эффекты и прозрачность */
-    --button-hover-color: rgba(255, 0, 112, 0.4);
-
-    /* Изображения */
-    --background-image: url(../images/cover-image-dark.png);
-    --cover-image: var(--background-image);
-
-    /* Типографика */
-    --primary-font: 'IBM Plex Mono', sans-serif;
-    --accent-font-family: 'IBM Plex mono';
-
-    /* Размеры заголовков */
-    --accent-header-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    --accent-header-desctop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-
-    /* Отступы */
-    --padding: 10px;
+    --text-color: rgba(241, 178, 206, 1);
+    --main-font: "IBM Plex mono", monospace;
+    --background: rgba(0, 0, 40, 1) url("../images/cover-image-dark.png")
+    no-repeat center / cover;
+    --accent-color: rgba(255, 0, 112, 1);
+    --accent-color-btn: rgba(255, 0, 112, 1);
+    --text-color-accent: rgba(219, 0, 255, 1);
+    --bg-color: rgba(0, 0, 40, 1);
+    --accent-color-title: rgba(255, 0, 112, 1);
+    --display-header-decor: inline-flex;
+    --color-section-title: rgba(255, 0, 112, 1);
+    --accent-color-opasity: rgba(255, 0, 112, 0.4);
+    --logo-size_mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --logo-size_desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
