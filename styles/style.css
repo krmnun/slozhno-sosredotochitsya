@@ -161,7 +161,9 @@
 }
 
 .header__title-decor {
-    inline-size: max(491px, 30%);
+    inline-size: max(364px, 50%);
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 /* Main */
@@ -383,6 +385,12 @@
 @media (min-width: 1024px) {
     .header__title {
         font-size: var(--accent-header-desctop);
+    }
+
+    .header__title-decor {
+        inline-size: max(491px, 30%);
+        padding-top: 10px;
+        padding-bottom: 20px;
     }
 
     .header__theme-menu {
