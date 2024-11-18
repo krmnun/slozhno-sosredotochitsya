@@ -10,8 +10,7 @@ body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0 auto;
-  font-size: var(--base-font-size);
-  font-family: var(--font-family-primary);
+  font-size: var(--font-base-size);
   font-weight: normal;
   width: 100vw;
   overflow-x: hidden;

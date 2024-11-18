@@ -1,22 +1,20 @@
 .page.theme_dark {
-    /* сохраните этот селектор в приведённом виде.
-      Так стили написанные ниже будут иметь больший вес,
-      чем стили в медиазапросе предпочтений пользователя
-    */
-
-    --main-color: #ff0077;
-    --background-color: #000028;
-    --border-color: #ff0077;
-    --focus-color: #ff0077;
+    --primary-color: #ff0077;
+    --background-primary-color: #000028;
+    --border-primary-color: #ff0077;
+    --focus-outline-color: #ff0077;
     --focus-underline-color: #ff0077;
-    --main-color-translucent: rgba(255, 0, 112, 0.4);
-    --titel-text-color: #db00ff;
-    --color-h1: #db00ff;
-    --color-h2: #ff0077;
+    --primary-color-translucent: rgba(255, 0, 112, 0.4);
+    --font-base-size: 18px;
+    --font-size-h1: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --title-text-color: #db00ff;
+    --heading-color-h1: #db00ff;
+    --heading-color-h2: #ff0077;
     --subtitle-text-color: #000028;
-    --text-color: #f1b2ce;
+    --body-text-color: #f1b2ce;
     --background-image: url(../images/cover-image-dark.png);
-    --decorated-zone-color: #ff0077;
-    --theme-color: #ff0077;
-    --rec-visible: visible;
+    --decorative-zone-border-color: #ff0077;
+    --theme-default-color: #ff0077;
+    --rec-visibility: visible;
+    --font-family-primary: 'IBM Plex mono', monospace;
 }

@@ -1,37 +1,39 @@
 .page.theme_light {
-    --main-color: #ff8dcb;
-    --background-color: #fff1f7;
-    --border-color: #353430;
-    --focus-color: #353430;
+    --primary-color: #ff8dcb;
+    --background-primary-color: #fff1f7;
+    --border-primary-color: #353430;
+    --focus-outline-color: #353430;
     --focus-underline-color: #353430;
-    --main-color-translucent: rgba(53, 52, 48, 0.4);
+    --primary-color-translucent: rgba(53, 52, 48, 0.4);
     --titel-text-color: #353430;
-    --color-h1: #ffc2e6;
-    --color-h2: #353430;
+    --heading-color-h1: #ffc2e6;
+    --heading-color-h2: #353430;
     --subtitle-text-color: #353430;
-    --text-color: #353430;
+    --body-text-color: #353430;
     --background-image: url(../images/cover-image-light.png);
-    --decorated-zone-color: #353430;
-    --theme-color: #353430;
-    --rec-visible: hidden;
+    --decorative-zone-border-color: #353430;
+    --theme-default-color: #353430;
+    --rec-visibility: hidden;
+    --font-family-primary: 'IBM Plex mono', monospace;
 }
 
 @media (prefers-color-scheme: light) {
     :root {
-        --main-color: #ff8dcb;
-        --background-color: #fff1f7;
-        --border-color: #353430;
-        --focus-color: #353430;
+        --primary-color: #ff8dcb;
+        --background-primary-color: #fff1f7;
+        --border-primary-color: #353430;
+        --focus-outline-color: #353430;
         --focus-underline-color: #353430;
-        --main-color-translucent: rgba(53, 52, 48, 0.4);
+        --primary-color-translucent: rgba(53, 52, 48, 0.4);
         --titel-text-color: #353430;
-        --color-h1: #ffc2e6;
-        --color-h2: #353430;
+        --heading-color-h1: #ffc2e6;
+        --heading-color-h2: #353430;
         --subtitle-text-color: #353430;
-        --text-color: #353430;
+        --body-text-color: #353430;
         --background-image: url(../images/cover-image-light.png);
-        --decorated-zone-color: #353430;
-        --theme-color: #353430;
-        --rec-visible: hidden;
+        --decorative-zone-border-color: #353430;
+        --theme-default-color: #353430;
+        --rec-visibility: hidden;
+        --font-family-primary: 'IBM Plex mono', monospace;
     }
 }
