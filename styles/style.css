@@ -309,10 +309,6 @@ button {
         border-bottom: none;
     }
 
-    .section {
-        flex-direction: row;
-    }
-
     .gallery {
         padding-block-start: 21px;
         gap: 20px;
