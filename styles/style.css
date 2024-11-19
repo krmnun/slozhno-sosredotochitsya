@@ -72,7 +72,7 @@ button {
     }
 }
 
-.theme-menu {
+.theme-menu-list {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -83,7 +83,7 @@ button {
     }
 }
 
-.theme-button {
+.header__theme-menu-button {
     position: relative;
     color: var(--theme-default-color);
     text-transform: lowercase;
@@ -91,20 +91,20 @@ button {
     min-inline-size: 70px;
 }
 
-.theme-button--active {
+.header__theme-menu-button_active {
     border: 1px solid var(--theme-default-color);
     pointer-events: none;
 }
 
-.theme-button:hover {
+.header__theme-menu-button:hover {
     outline: 1px solid var(--primary-color-translucent);
 }
 
-.theme-button:focus  {
+.header__theme-menu-button:focus-visible  {
     outline: none;
 }
 
-.theme-button:focus-visible {
+.header__theme-menu-button:focus-visible {
     border-block-end: 1px solid var(--theme-default-color);
 }
 
