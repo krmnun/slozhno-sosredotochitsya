@@ -104,10 +104,6 @@ button {
     outline: none;
 }
 
-.header__theme-menu-button:focus-visible {
-    border-block-end: 1px solid var(--theme-default-color);
-}
-
 .header__title {
     display: inline-block;
     justify-self: start;
