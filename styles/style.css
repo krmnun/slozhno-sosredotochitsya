@@ -11,7 +11,6 @@
     background-attachment: fixed;
 }
 
-/* ----- Первый экран ----- */
 .header {
     height: 100vh;
     min-block-size: 668px;
@@ -114,7 +113,7 @@ button {
     justify-self: start;
     color: var(--heading-color-h1);
     text-shadow: 4px 4px var(--primary-color);
-    font-size: var(--heading-color-h1);
+    font-size: var(--font-size-h1);
     line-height: 82.5%;
 
     @media (min-width: 768px) {
