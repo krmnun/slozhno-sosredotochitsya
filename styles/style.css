@@ -100,7 +100,7 @@ button {
     outline: 1px solid var(--primary-color-translucent);
 }
 
-.header__theme-menu-button:focus-visible  {
+.header__theme-menu-button:focus-visible {
     outline: none;
 }
 
