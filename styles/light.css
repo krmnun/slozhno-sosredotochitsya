@@ -1,12 +1,53 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+    /* Цветовые переменные */
+    --primary-color: #ff8dcb;
+    --primary-color-translucent: rgba(53, 52, 48, 0.4);
+    --background-primary-color: #fff1f7;
+    --border-primary-color: #353430;
+    --focus-outline-color: #353430;
+    --focus-underline-color: #353430;
+    --titel-text-color: #353430;
+    --heading-color-h1: #ffc2e6;
+    --heading-color-h2: #353430;
+    --subtitle-text-color: #353430;
+    --body-text-color: #353430;
+    --decorative-zone-border-color: #353430;
+    --theme-default-color: #353430;
+
+    /* Шрифты */
+    --font-family-primary: 'IBM Plex mono', monospace;
+
+    /* Фоновые элементы */
+    --background-image: url(../images/cover-image-light.png);
+
+    /* Прочие настройки */
+    --rec-visibility: hidden;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        /* Цветовые переменные */
+        --primary-color: #ff8dcb;
+        --primary-color-translucent: rgba(53, 52, 48, 0.4);
+        --background-primary-color: #fff1f7;
+        --border-primary-color: #353430;
+        --focus-outline-color: #353430;
+        --focus-underline-color: #353430;
+        --titel-text-color: #353430;
+        --heading-color-h1: #ffc2e6;
+        --heading-color-h2: #353430;
+        --subtitle-text-color: #353430;
+        --body-text-color: #353430;
+        --decorative-zone-border-color: #353430;
+        --theme-default-color: #353430;
+
+        /* Шрифты */
+        --font-family-primary: 'IBM Plex mono', monospace;
+
+        /* Фоновые элементы */
+        --background-image: url(../images/cover-image-light.png);
+
+        /* Прочие настройки */
+        --rec-visibility: hidden;
+    }
 }
