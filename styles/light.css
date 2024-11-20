@@ -7,15 +7,12 @@
     --focus-outline-color: #353430;
     --focus-underline-color: #353430;
     --titel-text-color: #353430;
-    --heading-color-h1: #ffc2e6;
-    --heading-color-h2: #353430;
+    --heading-primary-color: #ffc2e6;
+    --heading-secondary-color: #353430;
     --subtitle-text-color: #353430;
     --body-text-color: #353430;
     --decorative-zone-border-color: #353430;
     --theme-default-color: #353430;
-
-    /* Шрифты */
-    --font-family-primary: 'IBM Plex mono', monospace;
 
     /* Фоновые элементы */
     --background-image: url(../images/cover-image-light.png);
@@ -40,9 +37,6 @@
         --body-text-color: #353430;
         --decorative-zone-border-color: #353430;
         --theme-default-color: #353430;
-
-        /* Шрифты */
-        --font-family-primary: 'IBM Plex mono', monospace;
 
         /* Фоновые элементы */
         --background-image: url(../images/cover-image-light.png);
