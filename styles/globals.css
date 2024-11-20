@@ -10,7 +10,7 @@ body {
   margin: 0 auto;
   font-size: var(--font-base-size);
   font-weight: normal;
-  width: 100vw;
+  width: 100%;
 }
 
 h1,

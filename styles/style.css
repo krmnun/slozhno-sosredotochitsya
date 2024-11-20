@@ -91,7 +91,7 @@ button {
     line-height: 82.5%;
     color: var(--heading-primary-color);
     display: inline-block;
-    font-size: var(--font-size-h1);
+    font-size: var(--heading-primary-font-size);
     text-shadow: 4px 4px var(--primary-color);
 }
 
@@ -212,7 +212,7 @@ button {
 }
 
 .footer__title {
-    font-size: var(--font-size-h1);
+    font-size: var(--heading-primary-font-size);
     color: var(--heading-primary-color);
     font-weight: bold;
     text-shadow: 2px 2px var(--primary-color);
@@ -318,6 +318,11 @@ button {
 }
 
 @media (min-width: 1024px) {
+
+    .header-subtitle {
+        inline-size: clamp(491px, 100%, 71px);
+    }
+
     .block-theme {
         justify-self: center;
         align-self: start;
