@@ -79,11 +79,12 @@ button {
 }
 
 .header__theme-menu-button:hover {
-    outline: 1px solid var(--primary-color-translucent);
+    border-bottom: 1px solid var(--theme-default-color);
 }
 
 .header__theme-menu-button:focus-visible {
     outline: none;
+    border-bottom: 2px solid var(--primary-color);
 }
 
 .header__title {
@@ -165,6 +166,7 @@ button {
 
 .card__link:focus {
     outline: none;
+    border: 1px solid var(--body-text-color);
 }
 
 .card__link:focus-visible {
