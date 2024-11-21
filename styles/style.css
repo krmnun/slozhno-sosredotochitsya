@@ -79,11 +79,14 @@ button {
 }
 
 .header__theme-menu-button:hover {
-    border-bottom: 1px solid var(--theme-default-color);
+    border-bottom: 1px solid var(--primary-color-translucent);
+}
+
+.header__theme-menu-button:focus {
+    outline: none;
 }
 
 .header__theme-menu-button:focus-visible {
-    outline: none;
     border-bottom: 2px solid var(--primary-color);
 }
 
@@ -166,7 +169,6 @@ button {
 
 .card__link:focus {
     outline: none;
-    border: 1px solid var(--body-text-color);
 }
 
 .card__link:focus-visible {
