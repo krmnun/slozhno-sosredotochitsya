@@ -20,3 +20,7 @@
     /* Прочие настройки */
     --rec-visibility: visible;
 }
+
+.theme_dark .header__theme-menu-button:focus-visible {
+    border-bottom: 1px solid var(--border-primary-color);
+}

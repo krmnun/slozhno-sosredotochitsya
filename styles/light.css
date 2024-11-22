@@ -21,6 +21,10 @@
     --rec-visibility: hidden;
 }
 
+.theme_light .header__theme-menu-button:focus-visible {
+    border-bottom: 1px solid var(--border-primary-color);
+}
+
 @media (prefers-color-scheme: light) {
     :root {
         /* Цветовые переменные */
@@ -43,5 +47,9 @@
 
         /* Прочие настройки */
         --rec-visibility: hidden;
+    }
+
+    .theme_light .header__theme-menu-button:focus-visible {
+        border-bottom: 1px solid var(--border-primary-color);
     }
 }
